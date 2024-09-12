@@ -1,11 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ogabang</title>
+    <title>Welcome Page</title>
+    <link rel="icon" type="image/x-icon" href="J.ico">
+    <style>
+        /* Include the Arcade Classic font */
+        @font-face {
+            font-family: 'Arcade Classic';
+            src: url('arcadeclassic.regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('https://steamuserimages-a.akamaihd.net/ugc/802114790894531555/045F7A07B4272EF961134A63045A60BCB9A4CEC3/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Arcade Classic', monospace;
+        }
+
+        .container {
+            text-align: center;
+            color: #add8e6;
+        }
+
+        h1 {
+            font-family: 'Arcade Classic', monospace;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; /* Black stroke effect */
+        }
+
+        .enter-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            font-family: 'Arcade Classic', monospace;
+            background: linear-gradient(45deg, #007bff, #ffffff);
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+            transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+        }
+
+        .enter-button:hover {
+            background: linear-gradient(45deg, #0056b3, #f0f0f0);
+            color: #000;
+            transform: scale(1.05);
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .enter-button:active {
+            transform: scale(1.02);
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Integrative  Programming  and  Technologies  2</h1>
+        <a href="Login" class="enter-button">Enter</a>
+    </div>
 </body>
+
 </html>
+
